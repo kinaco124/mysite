@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: gold;
+  color: #fff;
+  height: 90px;
+}
+
+header .header-logo {
+  font-size: 20px;
+  float: left;
+  padding: 30px 40px;
+}
+
+header li {
+  list-style: none;
+  float: left;
+  padding: 32px 20px;
+}
+
+.main {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+  background-color: aqua;
+  height: 400px;
+}
+
+.main #heading h1 {
+  font-size: 40px;
+}
+
+.main #heading h2 {
+  font-size: 30px;
+}
+
+.main #heading span {
+  color: red;
+}
+
+footer {
+  background-color: blue;
+  height: 100px;
+  color: #fff;
+}
+
+footer .footer-logo {
+  font-size: 20px;
+  float: left;
+  padding: 30px 40px;
+}
+
+footer .footer-list {
+  float: right;
+  padding-top: 10px;
+}
+
+footer .footer-list li {
+  list-style: none;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
