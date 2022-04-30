@@ -6,42 +6,82 @@
 header {
   background-color: gold;
   color: #fff;
-  height: 90px;
+  height: 100px;
 }
 
 header .header-logo {
   font-size: 20px;
   float: left;
-  padding: 30px 40px;
+  padding: 33px 40px;
 }
 
 header li {
   list-style: none;
   float: left;
-  padding: 32px 20px;
+  padding: 34px 20px;
 }
 
 .main {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
-  background-color: aqua;
-  height: 400px;
+  background-color: floralwhite;
+  height: 700px;
 }
 
-.main #heading h1 {
+.main .heading h1 {
   font-size: 40px;
+  border-bottom: 2px solid black;
 }
 
-.main #heading h2 {
-  font-size: 30px;
-}
-
-.main #heading span {
+.main .heading h1 span {
   color: red;
 }
 
+.main .heading h2 {
+  margin: 5px;
+  font-size: 30px;
+  border: 2px solid black;
+  border-style: dotted;
+}
+
+.main .main-contents {
+  padding: 20px 10px;
+}
+
+.main .main-contents h1 {
+  margin-top: 10px;
+}
+
+.main .main-contents a {
+  margin-left: 5px;
+}
+
+.main .main-contents img {
+  size: 5in;
+}
+
+.main .contact-form h3 {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+.main .contact-form input,
+.main .contact-form textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.main .contact-form .contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
 footer {
-  background-color: blue;
-  height: 100px;
+  background-color: deepskyblue;
+  height: 150px;
   color: #fff;
 }
 
@@ -53,12 +93,13 @@ footer .footer-logo {
 
 footer .footer-list {
   float: right;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 footer .footer-list li {
   list-style: none;
   padding-bottom: 5px;
   padding-right: 10px;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=stylesheet.css.map */
